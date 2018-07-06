@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <FrameLayout
         android:id="@+id/login_content"
@@ -21,7 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dark_50"
         app:menu="@menu/navigation" />
 
 </LinearLayout>
